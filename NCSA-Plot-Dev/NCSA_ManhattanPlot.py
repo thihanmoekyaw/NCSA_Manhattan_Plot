@@ -35,7 +35,7 @@ def NCSA_ManhattanPlot(
         genomewideline_width=1,
         highlight=True,
         highlight_color="red",
-        additional_highlight_row="PNAME", #the name of the row in pandas
+        additional_highlight_row="Kegg_Pathway", #the name of the row in pandas
         additional_highlight_val="RNA transport", #either a string or a list
 ):
     """Returns a figure for a manhattan plot.
