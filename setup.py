@@ -1,8 +1,14 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='NCSA-Manhattan',
-    version='0.1.0',
-    url='https://github.com/your-username/your-repository',
-    packages=['NCSA-Plot-Dev'],
+    name='NCSAMahanttanPlot',
+    version='0.1',
+    author='NCSA Visual Analytics',
+    url='https://github.com/thihanmoekyaw/NCSA_Manhattan_Plot',
+    packages=find_packages(),
+    install_requires=[
+        'numpy',
+        'pandas',
+        'plotly'
+    ],
 )
