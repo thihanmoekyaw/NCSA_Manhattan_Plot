@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='NCSAManhattanPlot',
+    name='NCSA_Manhattan_Plot',
     version='0.1',
     author='NCSA Visual Analytics',
     url='https://github.com/thihanmoekyaw/NCSA_Manhattan_Plot',
