@@ -9,6 +9,7 @@ setup(
     install_requires=[
         'numpy',
         'pandas',
-        'plotly'
+        'plotly',
+        'dash_bio'
     ],
 )
