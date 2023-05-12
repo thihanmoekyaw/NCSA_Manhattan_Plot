@@ -10,7 +10,7 @@ setup(
         'numpy',
         'pandas',
         'plotly',
-        'dash'
+        'dash',
         'dash_bio',
         'Jupyterlab',
     ],
