@@ -4,8 +4,9 @@ import numpy as np
 import pandas as pd
 from pandas.api.types import is_numeric_dtype
 
-from dash_bio.utils import _get_hover_text
+import plotly.graph_objects as go
 
+from dash_bio.component_factory.utils import _get_hover_text
 
 SUGGESTIVE_LINE_LABEL = "suggestive line"
 GENOMEWIDE_LINE_LABEL = "genomewide line"
