@@ -6,12 +6,13 @@ setup(
     author='NCSA Visual Analytics',
     url='https://github.com/thihanmoekyaw/NCSA_Manhattan_Plot',
     packages=find_packages(),
+    python_requires='>=3.9',
     install_requires=[
-        'numpy',
-        'pandas',
-        'plotly',
-        'dash',
-        'dash_bio',
+        'numpy >= 1.22.4',
+        'pandas == 1.3.5',
+        'plotly.express ==0.4.1',
+        'dash >= 2.11',
+        # 'dash_bio',
         'Jupyterlab',
     ],
 )
