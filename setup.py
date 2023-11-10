@@ -12,7 +12,7 @@ setup(
         'pandas == 1.3.5',
         'plotly.express ==0.4.1',
         'dash >= 2.11',
-        # 'dash_bio',
+        'dash_bio',
         'Jupyterlab',
     ],
 )
